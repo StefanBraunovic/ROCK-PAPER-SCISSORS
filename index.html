@@ -1,0 +1,29 @@
+<!DOCTYPE html5>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="/ROCK-PAPER-SCISSORS/styles.css">
+    <script src="/ROCK-PAPER-SCISSORS/app.js"></script>
+</head>
+<header>
+   Rock Paper Scissors
+</header>
+<body>
+    <div id="matchResult">
+        Choose your weapon!
+    </div>
+    
+    <div id="buttonPanel">
+        <button type="button" id="Rock"  onclick="playRound('rock',computerPlay())" ><img id="rok" src="/ROCK-PAPER-SCISSORS/images/Rock.jpg"></button>
+        <button type="button" id="Paper" value="Paper!" onclick="playRound('paper',computerPlay())"><img id="papir"src="/ROCK-PAPER-SCISSORS/images/paper.jpg"></button>
+        <button type="button" id="Scissors" value="Scissors!" onclick="playRound('scissors',computerPlay())"><img id="makaze" src="/ROCK-PAPER-SCISSORS/images/Scissors.jpg"></button>
+    </div>
+    <div id="scores">
+        <p id="playerScore">Player score: 0</p>
+        <p id="computerScore">Computer score: 0</p>
+    </div>
+    <div id="replay" hidden>
+        <p id="final"></p>
+        <p>Wanna play again? <input type="button" value="Replay!" onclick="window.location.reload()"></p>
+        
+    </div>
+</body>

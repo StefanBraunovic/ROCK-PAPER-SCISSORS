@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    color: rgb(248, 244, 244);
+    background-color: black;
+    font-size: 60pt;
+    font-family: monospace;
+    margin-bottom: 15%;
+}
+
+body{
+    text-align: center;
+}
+
+
+
+#rok{
+    width: 19.8em;
+    
+   
+}
+
+#papir{
+    width: 74.5%;
+}
+
+#makaze{
+    width: 13.2em;
+}
+
+#matchResult{
+    flex: auto;
+    padding-bottom: 20px;
+}
